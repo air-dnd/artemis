@@ -1,0 +1,32 @@
+{
+  "name": "artemis",
+  "version": "1.0.0",
+  "description": "![Artemis Project Banner](/assets/project-banner.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --build"
+  },
+  "repository": "git+https://github.com/air-dnd/artemis.git",
+  "keywords": [],
+  "author": "Warren Sadler <warrendsadler@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/air-dnd/artemis/issues"
+  },
+  "homepage": "https://github.com/air-dnd/artemis#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/jest": "^25.2.3",
+    "@types/supertest": "^2.0.9",
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2",
+    "ts-jest": "^26.0.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
